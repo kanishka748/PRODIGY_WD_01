@@ -1,0 +1,11 @@
+document.addEventListener('DOMContentLoaded', function () {
+    var navigation = document.getElementById('navigation');
+
+    window.addEventListener('scroll', function () {
+        if (this.window.scrollY > 50) {
+            navigation.style.background = '#96a88c'; // Change background color when scrolled
+        } else {
+            navigation.style.background ='#96a88c'; // Reset background color
+        }
+    });
+});
